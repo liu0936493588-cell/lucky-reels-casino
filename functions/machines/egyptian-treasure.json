@@ -1,0 +1,483 @@
+{
+  "id": "egyptian-treasure",
+  "name": "Egyptian Treasure",
+  "version": 1,
+  "reels": 5,
+  "rows": 3,
+  "wild": "WILD",
+  "scatter": "SCAT",
+  "stripSeed": 20260927,
+  "symbols": [
+    {
+      "id": "WILD",
+      "name": "Golden Sarcophagus",
+      "kind": "wild"
+    },
+    {
+      "id": "SCAT",
+      "name": "Glowing Pyramid",
+      "kind": "scatter"
+    },
+    {
+      "id": "MASK",
+      "name": "Pharaoh Mask",
+      "kind": "high"
+    },
+    {
+      "id": "SCARAB",
+      "name": "Sun Scarab",
+      "kind": "high"
+    },
+    {
+      "id": "EYE",
+      "name": "Sacred Eye",
+      "kind": "high"
+    },
+    {
+      "id": "ANKH",
+      "name": "Emerald Ankh",
+      "kind": "high"
+    },
+    {
+      "id": "LOTUS",
+      "name": "Rose Lotus",
+      "kind": "high"
+    },
+    {
+      "id": "A",
+      "name": "Ruby A",
+      "kind": "low"
+    },
+    {
+      "id": "K",
+      "name": "Sapphire K",
+      "kind": "low"
+    },
+    {
+      "id": "Q",
+      "name": "Emerald Q",
+      "kind": "low"
+    },
+    {
+      "id": "J",
+      "name": "Amethyst J",
+      "kind": "low"
+    },
+    {
+      "id": "TEN",
+      "name": "Topaz 10",
+      "kind": "low"
+    }
+  ],
+  "reelWeights": [
+    {
+      "WILD": 1,
+      "SCAT": 2,
+      "MASK": 3,
+      "SCARAB": 4,
+      "EYE": 4,
+      "ANKH": 5,
+      "LOTUS": 5,
+      "A": 7,
+      "K": 7,
+      "Q": 8,
+      "J": 8,
+      "TEN": 9
+    },
+    {
+      "WILD": 1,
+      "SCAT": 2,
+      "MASK": 3,
+      "SCARAB": 4,
+      "EYE": 4,
+      "ANKH": 5,
+      "LOTUS": 5,
+      "A": 7,
+      "K": 7,
+      "Q": 8,
+      "J": 8,
+      "TEN": 9
+    },
+    {
+      "WILD": 3,
+      "SCAT": 2,
+      "MASK": 3,
+      "SCARAB": 4,
+      "EYE": 4,
+      "ANKH": 5,
+      "LOTUS": 5,
+      "A": 7,
+      "K": 7,
+      "Q": 8,
+      "J": 8,
+      "TEN": 9
+    },
+    {
+      "WILD": 3,
+      "SCAT": 2,
+      "MASK": 3,
+      "SCARAB": 4,
+      "EYE": 4,
+      "ANKH": 5,
+      "LOTUS": 5,
+      "A": 7,
+      "K": 7,
+      "Q": 8,
+      "J": 8,
+      "TEN": 9
+    },
+    {
+      "WILD": 3,
+      "SCAT": 2,
+      "MASK": 3,
+      "SCARAB": 4,
+      "EYE": 4,
+      "ANKH": 5,
+      "LOTUS": 5,
+      "A": 7,
+      "K": 7,
+      "Q": 8,
+      "J": 8,
+      "TEN": 9
+    }
+  ],
+  "paylines": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      1,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      2,
+      2,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      2,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      1,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      2,
+      1,
+      2
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      0,
+      2,
+      0,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      2,
+      0,
+      2
+    ],
+    [
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      2
+    ],
+    [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      0,
+      2,
+      1
+    ]
+  ],
+  "paytable": {
+    "WILD": [
+      0,
+      0,
+      0,
+      140,
+      700,
+      3500
+    ],
+    "MASK": [
+      0,
+      0,
+      0,
+      110,
+      450,
+      2250
+    ],
+    "SCARAB": [
+      0,
+      0,
+      0,
+      90,
+      270,
+      1100
+    ],
+    "EYE": [
+      0,
+      0,
+      0,
+      65,
+      225,
+      800
+    ],
+    "ANKH": [
+      0,
+      0,
+      0,
+      55,
+      180,
+      550
+    ],
+    "LOTUS": [
+      0,
+      0,
+      0,
+      45,
+      135,
+      450
+    ],
+    "A": [
+      0,
+      0,
+      0,
+      22,
+      68,
+      270
+    ],
+    "K": [
+      0,
+      0,
+      0,
+      22,
+      68,
+      270
+    ],
+    "Q": [
+      0,
+      0,
+      0,
+      18,
+      54,
+      225
+    ],
+    "J": [
+      0,
+      0,
+      0,
+      18,
+      54,
+      225
+    ],
+    "TEN": [
+      0,
+      0,
+      0,
+      13,
+      45,
+      180
+    ]
+  },
+  "scatterPays": [
+    0,
+    0,
+    0,
+    3,
+    15,
+    100
+  ],
+  "freeSpins": {
+    "awards": {
+      "3": 8,
+      "4": 12,
+      "5": 20
+    },
+    "multiplier": 2,
+    "retrigger": true
+  },
+  "betLevels": [
+    2500,
+    5000,
+    10000,
+    25000,
+    50000,
+    100000,
+    250000,
+    500000,
+    1000000
+  ],
+  "betUnlockLevels": [
+    1,
+    1,
+    1,
+    1,
+    2,
+    4,
+    6,
+    8,
+    12
+  ],
+  "defaultBetIndex": 2,
+  "winTiers": {
+    "big": 10,
+    "mega": 25,
+    "epic": 50
+  },
+  "tutorialGrid": [
+    [
+      "TEN",
+      "SCARAB",
+      "A"
+    ],
+    [
+      "K",
+      "SCARAB",
+      "Q"
+    ],
+    [
+      "J",
+      "WILD",
+      "TEN"
+    ],
+    [
+      "A",
+      "SCARAB",
+      "K"
+    ],
+    [
+      "Q",
+      "SCARAB",
+      "J"
+    ]
+  ]
+}
