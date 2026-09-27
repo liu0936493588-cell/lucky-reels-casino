@@ -1,0 +1,420 @@
+{
+  "id": "neon-fruits",
+  "name": "Neon Fruits",
+  "version": 1,
+  "reels": 5,
+  "rows": 3,
+  "wild": "WILD",
+  "scatter": "SCAT",
+  "stripSeed": 19840707,
+  "symbols": [
+    {
+      "id": "WILD",
+      "name": "Neon Diamond",
+      "kind": "wild"
+    },
+    {
+      "id": "SCAT",
+      "name": "Bonus Star",
+      "kind": "scatter"
+    },
+    {
+      "id": "BELL",
+      "name": "Golden Bell",
+      "kind": "high"
+    },
+    {
+      "id": "MELON",
+      "name": "Watermelon",
+      "kind": "high"
+    },
+    {
+      "id": "GRAPE",
+      "name": "Grapes",
+      "kind": "high"
+    },
+    {
+      "id": "CHERRY",
+      "name": "Cherries",
+      "kind": "high"
+    },
+    {
+      "id": "STRAW",
+      "name": "Strawberry",
+      "kind": "low"
+    },
+    {
+      "id": "LEMON",
+      "name": "Lemon",
+      "kind": "low"
+    },
+    {
+      "id": "ORANGE",
+      "name": "Orange",
+      "kind": "low"
+    },
+    {
+      "id": "PLUM",
+      "name": "Plum",
+      "kind": "low"
+    }
+  ],
+  "reelWeights": [
+    {
+      "WILD": 0,
+      "SCAT": 2,
+      "BELL": 7,
+      "MELON": 7,
+      "GRAPE": 7,
+      "CHERRY": 7,
+      "STRAW": 7,
+      "LEMON": 7,
+      "ORANGE": 7,
+      "PLUM": 7
+    },
+    {
+      "WILD": 1,
+      "SCAT": 2,
+      "BELL": 7,
+      "MELON": 7,
+      "GRAPE": 7,
+      "CHERRY": 7,
+      "STRAW": 7,
+      "LEMON": 7,
+      "ORANGE": 7,
+      "PLUM": 7
+    },
+    {
+      "WILD": 1,
+      "SCAT": 2,
+      "BELL": 7,
+      "MELON": 7,
+      "GRAPE": 7,
+      "CHERRY": 7,
+      "STRAW": 7,
+      "LEMON": 7,
+      "ORANGE": 7,
+      "PLUM": 7
+    },
+    {
+      "WILD": 1,
+      "SCAT": 2,
+      "BELL": 7,
+      "MELON": 7,
+      "GRAPE": 7,
+      "CHERRY": 7,
+      "STRAW": 7,
+      "LEMON": 7,
+      "ORANGE": 7,
+      "PLUM": 7
+    },
+    {
+      "WILD": 1,
+      "SCAT": 2,
+      "BELL": 7,
+      "MELON": 7,
+      "GRAPE": 7,
+      "CHERRY": 7,
+      "STRAW": 7,
+      "LEMON": 7,
+      "ORANGE": 7,
+      "PLUM": 7
+    }
+  ],
+  "paylines": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      1,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      2,
+      2,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      2,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      1,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      2,
+      1,
+      2
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      0,
+      2,
+      0,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      2,
+      0,
+      2
+    ],
+    [
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      2
+    ],
+    [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      0,
+      2,
+      1
+    ]
+  ],
+  "paytable": {
+    "WILD": [
+      0,
+      0,
+      0,
+      85,
+      420,
+      2200
+    ],
+    "BELL": [
+      0,
+      0,
+      0,
+      66,
+      275,
+      1380
+    ],
+    "MELON": [
+      0,
+      0,
+      0,
+      44,
+      165,
+      660
+    ],
+    "GRAPE": [
+      0,
+      0,
+      0,
+      33,
+      110,
+      440
+    ],
+    "CHERRY": [
+      0,
+      0,
+      0,
+      22,
+      82,
+      330
+    ],
+    "STRAW": [
+      0,
+      0,
+      0,
+      11,
+      33,
+      138
+    ],
+    "LEMON": [
+      0,
+      0,
+      0,
+      8,
+      27,
+      110
+    ],
+    "ORANGE": [
+      0,
+      0,
+      0,
+      7,
+      22,
+      88
+    ],
+    "PLUM": [
+      0,
+      0,
+      0,
+      7,
+      22,
+      88
+    ]
+  },
+  "scatterPays": [
+    0,
+    0,
+    0,
+    2,
+    10,
+    100
+  ],
+  "freeSpins": {
+    "awards": {
+      "3": 10,
+      "4": 12,
+      "5": 15
+    },
+    "multiplier": 3,
+    "retrigger": true
+  },
+  "betLevels": [
+    5000,
+    10000,
+    25000,
+    50000,
+    100000,
+    250000,
+    500000,
+    1000000,
+    2000000
+  ],
+  "betUnlockLevels": [
+    3,
+    3,
+    3,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16
+  ],
+  "defaultBetIndex": 1,
+  "winTiers": {
+    "big": 10,
+    "mega": 25,
+    "epic": 50
+  }
+}

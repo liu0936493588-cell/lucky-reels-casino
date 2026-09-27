@@ -13,7 +13,7 @@ export type Overlay =
   | { kind: "win"; tier: Exclude<WinTier, "none">; amount: number; bet: number; tiers: { big: number; mega: number; epic: number } }
   | { kind: "fsIntro"; count: number; multiplier: number }
   | { kind: "fsRetrigger"; count: number }
-  | { kind: "fsSummary"; totalWin: number; spins: number };
+  | { kind: "fsSummary"; totalWin: number; spins: number; multiplier: number };
 
 const TIER_ORDER: Exclude<WinTier, "none">[] = ["big", "mega", "epic"];
 
@@ -29,6 +29,8 @@ interface OverlayProps {
   auto: boolean;
   turbo: boolean;
   shake: (size: "sm" | "lg") => void;
+  /** Machine's themed title font class. */
+  titleClass?: string;
 }
 
 /** Full-screen Big / Mega / Epic win: the counter rolls up and the tier escalates as it crosses each threshold. */
@@ -133,7 +135,7 @@ function WinCelebration({ overlay, onDone, auto, turbo, shake }: OverlayProps & 
   );
 }
 
-function FreeSpinsIntro({ overlay, onDone, auto }: OverlayProps & { overlay: Extract<Overlay, { kind: "fsIntro" }> }) {
+function FreeSpinsIntro({ overlay, onDone, auto, titleClass = "font-display" }: OverlayProps & { overlay: Extract<Overlay, { kind: "fsIntro" }> }) {
   const doneRef = useRef<boolean>(false);
   const close = useCallback(() => {
     if (doneRef.current) return;
@@ -155,7 +157,7 @@ function FreeSpinsIntro({ overlay, onDone, auto }: OverlayProps & { overlay: Ext
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(10,60,110,0.6)_0%,rgba(4,1,20,0.92)_70%)]" />
       <div className="light-rays" style={{ background: "repeating-conic-gradient(from 0deg, rgba(60,230,255,0.16) 0deg 8deg, transparent 8deg 22deg)" }} />
       <div className="relative slam-in text-center">
-        <div className="font-egypt neon-cyan text-[26px] tracking-[0.2em] sm:text-[36px]">YOU WON</div>
+        <div className={cn(titleClass, "neon-cyan text-[26px] tracking-[0.2em] sm:text-[36px]")}>YOU WON</div>
         <div className="font-display text-gold text-[120px] leading-none sm:text-[180px]">{overlay.count}</div>
         <div className="font-display tier-mega text-[48px] leading-none sm:text-[80px]">FREE SPINS</div>
         <div className="mt-4 inline-flex items-center gap-2 rounded-full px-5 py-2 pill-dark">
@@ -187,7 +189,7 @@ function FreeSpinsRetrigger({ overlay, onDone }: OverlayProps & { overlay: Extra
   );
 }
 
-function FreeSpinsSummary({ overlay, onDone, auto }: OverlayProps & { overlay: Extract<Overlay, { kind: "fsSummary" }> }) {
+function FreeSpinsSummary({ overlay, onDone, auto, titleClass = "font-display" }: OverlayProps & { overlay: Extract<Overlay, { kind: "fsSummary" }> }) {
   const [value, setValue] = useState<number>(0);
   const [finished, setFinished] = useState<boolean>(false);
   const skipRef = useRef<boolean>(false);
@@ -235,9 +237,9 @@ function FreeSpinsSummary({ overlay, onDone, auto }: OverlayProps & { overlay: E
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(40,10,80,0.6)_0%,rgba(4,1,14,0.9)_70%)]" />
       <div className="light-rays" />
       <div className="panel-gold relative w-full max-w-md rounded-[30px] px-6 pb-6 pt-5 text-center pop-in">
-        <div className="font-egypt text-gold text-[22px] sm:text-[26px]">FREE SPINS COMPLETE</div>
+        <div className={cn(titleClass, "text-gold text-[22px] sm:text-[26px]")}>FREE SPINS COMPLETE</div>
         <div className="mt-1 text-sm text-violet-100/70">
-          {overlay.spins} free spins played · all wins ×2
+          {overlay.spins} free spins played · all wins ×{overlay.multiplier}
         </div>
         <div className="mt-4 font-display text-[18px] tracking-[0.3em] text-amber-100/80">TOTAL WIN</div>
         <div className="mt-1 flex items-center justify-center gap-2">

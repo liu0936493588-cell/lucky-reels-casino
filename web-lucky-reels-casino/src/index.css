@@ -71,6 +71,12 @@
     font-weight: 900;
   }
 
+  .font-neon {
+    font-family: "Audiowide", "Lilita One", system-ui, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+  }
+
   .text-gold {
     background: var(--gold-grad);
     -webkit-background-clip: text;

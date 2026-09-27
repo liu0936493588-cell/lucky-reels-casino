@@ -33,6 +33,7 @@ export interface FramePalette {
 }
 
 const ET = "/assets/et";
+const NF = "/assets/nf";
 
 export const MACHINE_THEMES: Record<string, MachineTheme> = {
   "egyptian-treasure": {
@@ -70,12 +71,32 @@ export const MACHINE_THEMES: Record<string, MachineTheme> = {
   "neon-fruits": {
     id: "neon-fruits",
     title: "Neon Fruits",
-    tagline: "Retro neon wilds",
+    tagline: "Free spins · 3x wins",
     tile: "/assets/lobby/tile_neon-fruits.webp",
     accent: "#ff2e9a",
     glow: "rgba(255, 46, 154, 0.65)",
-    titleClass: "font-display",
-    symbolArt: {},
+    titleClass: "font-neon",
+    symbolArt: {
+      WILD: `${NF}/sym_WILD.webp`,
+      SCAT: `${NF}/sym_SCAT.webp`,
+      BELL: `${NF}/sym_BELL.webp`,
+      MELON: `${NF}/sym_MELON.webp`,
+      GRAPE: `${NF}/sym_GRAPE.webp`,
+      CHERRY: `${NF}/sym_CHERRY.webp`,
+      STRAW: `${NF}/sym_STRAW.webp`,
+      LEMON: `${NF}/sym_LEMON.webp`,
+      ORANGE: `${NF}/sym_ORANGE.webp`,
+      PLUM: `${NF}/sym_PLUM.webp`,
+    },
+    backgrounds: {
+      base: { landscape: `${NF}/bg_base_land.webp`, portrait: `${NF}/bg_base_port.webp` },
+      free: { landscape: `${NF}/bg_free_land.webp`, portrait: `${NF}/bg_free_port.webp` },
+    },
+    music: { base: "/audio/nf_music_base.mp3", free: "/audio/nf_music_free.mp3" },
+    frame: {
+      base: { glow: 0xff2e9a, panelTop: "rgba(40,6,48,0.86)", panelBottom: "rgba(8,4,32,0.9)", anticipation: 0x3be6ff, bulb: 0xffb8e6 },
+      free: { glow: 0x7dff4a, panelTop: "rgba(4,30,40,0.86)", panelBottom: "rgba(20,4,40,0.9)", anticipation: 0xff2e9a, bulb: 0xd8ffc0 },
+    },
   },
   "dragons-fortune": {
     id: "dragons-fortune",

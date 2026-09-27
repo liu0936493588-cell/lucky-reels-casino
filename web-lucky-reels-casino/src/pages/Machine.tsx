@@ -375,7 +375,7 @@ export default function Machine() {
     if (res.freeSpinsSummary) {
       await sleep(500);
       const s = res.freeSpinsSummary;
-      await showOverlay({ kind: "fsSummary", totalWin: s.totalWin, spins: s.spins });
+      await showOverlay({ kind: "fsSummary", totalWin: s.totalWin, spins: s.spins, multiplier: machine.freeSpins.multiplier });
       exitFree();
       setWin(s.totalWin);
       if (s.totalWin > 0) flyCoinsToBalance(r.screenCenter(), s.totalWin, () => releaseWin(), 26);
@@ -551,7 +551,7 @@ export default function Machine() {
 
       <AutospinPanel open={autoOpen} onClose={() => setAutoOpen(false)} onStart={startAuto} balance={displayBalance} />
       <PaytableModal open={infoOpen} onClose={() => setInfoOpen(false)} machine={machine} theme={theme} bet={bet} />
-      {overlay ? <CelebrationLayer overlay={overlay} onDone={closeOverlay} auto={autoLeft !== null || inFree} turbo={turbo} shake={shake} /> : null}
+      {overlay ? <CelebrationLayer overlay={overlay} onDone={closeOverlay} auto={autoLeft !== null || inFree} turbo={turbo} shake={shake} titleClass={theme.titleClass} /> : null}
 
       {!loaded ? (
         <LoadingScreen
