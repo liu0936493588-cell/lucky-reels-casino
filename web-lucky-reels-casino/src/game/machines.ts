@@ -34,6 +34,7 @@ export interface FramePalette {
 
 const ET = "/assets/et";
 const NF = "/assets/nf";
+const DF = "/assets/df";
 
 export const MACHINE_THEMES: Record<string, MachineTheme> = {
   "egyptian-treasure": {
@@ -101,12 +102,32 @@ export const MACHINE_THEMES: Record<string, MachineTheme> = {
   "dragons-fortune": {
     id: "dragons-fortune",
     title: "Dragon's Fortune",
-    tagline: "Fiery jade riches",
+    tagline: "Free spins · 5x wins",
     tile: "/assets/lobby/tile_dragons-fortune.webp",
     accent: "#ff5a3c",
     glow: "rgba(255, 90, 60, 0.65)",
-    titleClass: "font-display",
-    symbolArt: {},
+    titleClass: "font-imperial",
+    symbolArt: {
+      WILD: `${DF}/sym_WILD.webp`,
+      SCAT: `${DF}/sym_SCAT.webp`,
+      INGOT: `${DF}/sym_INGOT.webp`,
+      KOI: `${DF}/sym_KOI.webp`,
+      LANTERN: `${DF}/sym_LANTERN.webp`,
+      GONG: `${DF}/sym_GONG.webp`,
+      FAN: `${DF}/sym_FAN.webp`,
+      DRUM: `${DF}/sym_DRUM.webp`,
+      COIN: `${DF}/sym_COIN.webp`,
+      FIRE: `${DF}/sym_FIRE.webp`,
+    },
+    backgrounds: {
+      base: { landscape: `${DF}/bg_base_land.webp`, portrait: `${DF}/bg_base_port.webp` },
+      free: { landscape: `${DF}/bg_free_land.webp`, portrait: `${DF}/bg_free_port.webp` },
+    },
+    music: { base: "/audio/df_music_base.mp3", free: "/audio/df_music_free.mp3" },
+    frame: {
+      base: { glow: 0xff5a3c, panelTop: "rgba(46,10,6,0.86)", panelBottom: "rgba(10,4,24,0.9)", anticipation: 0xffd24a, bulb: 0xffc9a8 },
+      free: { glow: 0x3be6ff, panelTop: "rgba(4,22,40,0.86)", panelBottom: "rgba(26,6,30,0.9)", anticipation: 0xff9a2e, bulb: 0xbff0ff },
+    },
   },
   "ocean-pearls": {
     id: "ocean-pearls",

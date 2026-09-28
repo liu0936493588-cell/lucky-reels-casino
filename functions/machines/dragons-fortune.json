@@ -1,0 +1,420 @@
+{
+  "id": "dragons-fortune",
+  "name": "Dragon's Fortune",
+  "version": 1,
+  "reels": 5,
+  "rows": 3,
+  "wild": "WILD",
+  "scatter": "SCAT",
+  "stripSeed": 88197707,
+  "symbols": [
+    {
+      "id": "WILD",
+      "name": "Golden Dragon",
+      "kind": "wild"
+    },
+    {
+      "id": "SCAT",
+      "name": "Flaming Pearl",
+      "kind": "scatter"
+    },
+    {
+      "id": "INGOT",
+      "name": "Gold Ingot",
+      "kind": "high"
+    },
+    {
+      "id": "KOI",
+      "name": "Lucky Koi",
+      "kind": "high"
+    },
+    {
+      "id": "LANTERN",
+      "name": "Red Lantern",
+      "kind": "high"
+    },
+    {
+      "id": "GONG",
+      "name": "Golden Gong",
+      "kind": "high"
+    },
+    {
+      "id": "FAN",
+      "name": "Jade Fan",
+      "kind": "low"
+    },
+    {
+      "id": "DRUM",
+      "name": "Fortune Drum",
+      "kind": "low"
+    },
+    {
+      "id": "COIN",
+      "name": "Lucky Coin",
+      "kind": "low"
+    },
+    {
+      "id": "FIRE",
+      "name": "Firecrackers",
+      "kind": "low"
+    }
+  ],
+  "reelWeights": [
+    {
+      "WILD": 0,
+      "SCAT": 2,
+      "INGOT": 7,
+      "KOI": 7,
+      "LANTERN": 7,
+      "GONG": 7,
+      "FAN": 7,
+      "DRUM": 7,
+      "COIN": 7,
+      "FIRE": 7
+    },
+    {
+      "WILD": 1,
+      "SCAT": 2,
+      "INGOT": 7,
+      "KOI": 7,
+      "LANTERN": 7,
+      "GONG": 7,
+      "FAN": 7,
+      "DRUM": 7,
+      "COIN": 7,
+      "FIRE": 7
+    },
+    {
+      "WILD": 1,
+      "SCAT": 2,
+      "INGOT": 7,
+      "KOI": 7,
+      "LANTERN": 7,
+      "GONG": 7,
+      "FAN": 7,
+      "DRUM": 7,
+      "COIN": 7,
+      "FIRE": 7
+    },
+    {
+      "WILD": 1,
+      "SCAT": 2,
+      "INGOT": 7,
+      "KOI": 7,
+      "LANTERN": 7,
+      "GONG": 7,
+      "FAN": 7,
+      "DRUM": 7,
+      "COIN": 7,
+      "FIRE": 7
+    },
+    {
+      "WILD": 1,
+      "SCAT": 2,
+      "INGOT": 7,
+      "KOI": 7,
+      "LANTERN": 7,
+      "GONG": 7,
+      "FAN": 7,
+      "DRUM": 7,
+      "COIN": 7,
+      "FIRE": 7
+    }
+  ],
+  "paylines": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      0,
+      1,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      2,
+      2,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      2,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      1,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      2,
+      1,
+      2
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      0,
+      2,
+      0,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      2,
+      0,
+      2
+    ],
+    [
+      0,
+      2,
+      2,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      2
+    ],
+    [
+      1,
+      0,
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      0,
+      2,
+      1
+    ]
+  ],
+  "paytable": {
+    "WILD": [
+      0,
+      0,
+      0,
+      75,
+      420,
+      2100
+    ],
+    "INGOT": [
+      0,
+      0,
+      0,
+      62,
+      265,
+      1250
+    ],
+    "KOI": [
+      0,
+      0,
+      0,
+      42,
+      170,
+      630
+    ],
+    "LANTERN": [
+      0,
+      0,
+      0,
+      32,
+      110,
+      420
+    ],
+    "GONG": [
+      0,
+      0,
+      0,
+      21,
+      75,
+      295
+    ],
+    "FAN": [
+      0,
+      0,
+      0,
+      10,
+      31,
+      125
+    ],
+    "DRUM": [
+      0,
+      0,
+      0,
+      7,
+      24,
+      98
+    ],
+    "COIN": [
+      0,
+      0,
+      0,
+      6,
+      20,
+      78
+    ],
+    "FIRE": [
+      0,
+      0,
+      0,
+      0,
+      17,
+      66
+    ]
+  },
+  "scatterPays": [
+    0,
+    0,
+    0,
+    3,
+    20,
+    150
+  ],
+  "freeSpins": {
+    "awards": {
+      "3": 8,
+      "4": 12,
+      "5": 15
+    },
+    "multiplier": 5,
+    "retrigger": true
+  },
+  "betLevels": [
+    5000,
+    10000,
+    25000,
+    50000,
+    100000,
+    250000,
+    500000,
+    1000000,
+    2000000
+  ],
+  "betUnlockLevels": [
+    6,
+    6,
+    6,
+    6,
+    7,
+    9,
+    11,
+    14,
+    18
+  ],
+  "defaultBetIndex": 1,
+  "winTiers": {
+    "big": 10,
+    "mega": 25,
+    "epic": 50
+  }
+}

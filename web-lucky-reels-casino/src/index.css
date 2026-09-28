@@ -77,6 +77,11 @@
     letter-spacing: 0.03em;
   }
 
+  .font-imperial {
+    font-family: "Ma Shan Zheng", "Lilita One", system-ui, sans-serif;
+    font-weight: 400;
+  }
+
   .text-gold {
     background: var(--gold-grad);
     -webkit-background-clip: text;
