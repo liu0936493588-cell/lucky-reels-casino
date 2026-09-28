@@ -1,0 +1,180 @@
+{
+  "id": "ocean-pearls",
+  "name": "Ocean Pearls",
+  "version": 1,
+  "reels": 5,
+  "rows": 3,
+  "wild": "WILD",
+  "scatter": "SCAT",
+  "stripSeed": 31415926,
+  "symbols": [
+    {
+      "id": "WILD",
+      "name": "Golden Seahorse",
+      "kind": "wild"
+    },
+    {
+      "id": "SCAT",
+      "name": "Great Pearl",
+      "kind": "scatter"
+    },
+    {
+      "id": "TRIDENT",
+      "name": "Golden Trident",
+      "kind": "high"
+    },
+    {
+      "id": "DOLPHIN",
+      "name": "Silver Dolphin",
+      "kind": "high"
+    },
+    {
+      "id": "CRAB",
+      "name": "Treasure Crab",
+      "kind": "high"
+    },
+    {
+      "id": "CORAL",
+      "name": "Royal Coral",
+      "kind": "high"
+    },
+    {
+      "id": "STARFISH",
+      "name": "Sun Starfish",
+      "kind": "low"
+    },
+    {
+      "id": "JELLY",
+      "name": "Glow Jellyfish",
+      "kind": "low"
+    },
+    {
+      "id": "ANCHOR",
+      "name": "Old Anchor",
+      "kind": "low"
+    },
+    {
+      "id": "SHELL",
+      "name": "Spiral Shell",
+      "kind": "low"
+    }
+  ],
+  "reelWeights": [
+    {
+      "WILD": 0,
+      "SCAT": 2,
+      "TRIDENT": 7,
+      "DOLPHIN": 7,
+      "CRAB": 7,
+      "CORAL": 7,
+      "STARFISH": 7,
+      "JELLY": 7,
+      "ANCHOR": 7,
+      "SHELL": 7
+    },
+    {
+      "WILD": 1,
+      "SCAT": 2,
+      "TRIDENT": 7,
+      "DOLPHIN": 7,
+      "CRAB": 7,
+      "CORAL": 7,
+      "STARFISH": 7,
+      "JELLY": 7,
+      "ANCHOR": 7,
+      "SHELL": 7
+    },
+    {
+      "WILD": 1,
+      "SCAT": 2,
+      "TRIDENT": 7,
+      "DOLPHIN": 7,
+      "CRAB": 7,
+      "CORAL": 7,
+      "STARFISH": 7,
+      "JELLY": 7,
+      "ANCHOR": 7,
+      "SHELL": 7
+    },
+    {
+      "WILD": 1,
+      "SCAT": 2,
+      "TRIDENT": 7,
+      "DOLPHIN": 7,
+      "CRAB": 7,
+      "CORAL": 7,
+      "STARFISH": 7,
+      "JELLY": 7,
+      "ANCHOR": 7,
+      "SHELL": 7
+    },
+    {
+      "WILD": 1,
+      "SCAT": 2,
+      "TRIDENT": 7,
+      "DOLPHIN": 7,
+      "CRAB": 7,
+      "CORAL": 7,
+      "STARFISH": 7,
+      "JELLY": 7,
+      "ANCHOR": 7,
+      "SHELL": 7
+    }
+  ],
+  "paylines": [
+    [1, 1, 1, 1, 1],
+    [0, 0, 0, 0, 0],
+    [2, 2, 2, 2, 2],
+    [0, 1, 2, 1, 0],
+    [2, 1, 0, 1, 2],
+    [0, 0, 1, 2, 2],
+    [2, 2, 1, 0, 0],
+    [1, 0, 0, 0, 1],
+    [1, 2, 2, 2, 1],
+    [1, 0, 1, 2, 1],
+    [1, 2, 1, 0, 1],
+    [0, 1, 1, 1, 0],
+    [2, 1, 1, 1, 2],
+    [0, 1, 0, 1, 0],
+    [2, 1, 2, 1, 2],
+    [1, 1, 0, 1, 1],
+    [1, 1, 2, 1, 1],
+    [0, 0, 2, 0, 0],
+    [2, 2, 0, 2, 2],
+    [0, 2, 0, 2, 0],
+    [2, 0, 2, 0, 2],
+    [0, 2, 2, 2, 0],
+    [2, 0, 0, 0, 2],
+    [1, 0, 2, 0, 1],
+    [1, 2, 0, 2, 1]
+  ],
+  "paytable": {
+    "WILD": [0, 0, 0, 70, 380, 1900],
+    "TRIDENT": [0, 0, 0, 55, 240, 1150],
+    "DOLPHIN": [0, 0, 0, 38, 155, 580],
+    "CRAB": [0, 0, 0, 28, 100, 380],
+    "CORAL": [0, 0, 0, 18, 65, 250],
+    "STARFISH": [0, 0, 0, 9, 28, 115],
+    "JELLY": [0, 0, 0, 7, 22, 92],
+    "ANCHOR": [0, 0, 0, 6, 19, 80],
+    "SHELL": [0, 0, 0, 5, 16, 66]
+  },
+  "scatterPays": [0, 0, 0, 3, 20, 150],
+  "freeSpins": {
+    "awards": {
+      "3": 10,
+      "4": 12,
+      "5": 15
+    },
+    "multiplier": 4,
+    "retrigger": true
+  },
+  "betLevels": [5000, 10000, 25000, 50000, 100000, 250000, 500000, 1000000, 2000000],
+  "betUnlockLevels": [10, 10, 10, 10, 11, 12, 14, 16, 19],
+  "defaultBetIndex": 1,
+  "winTiers": {
+    "big": 10,
+    "mega": 25,
+    "epic": 50
+  }
+}
